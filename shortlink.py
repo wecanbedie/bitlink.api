@@ -1,8 +1,10 @@
 import os
 import requests
+import argparse
+
 from urllib.parse import urlparse
 from dotenv import load_dotenv
-import argparse
+
 
 
 def count_clicks(token_header, link):
